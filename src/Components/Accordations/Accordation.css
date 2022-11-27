@@ -1,0 +1,22 @@
+.MuiAccordionSummary-content{
+    color: #063D58;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.MuiAccordionSummary-root{
+    color: #063D58;
+    padding: 16px !important;
+}
+
+.Mui-expanded{
+    color: #e78764 !important;
+}
+
+.MuiAccordion-root{
+    box-shadow: none !important;
+}
+
+.MuiAccordionDetails-root{
+    font-size: 14px;
+}

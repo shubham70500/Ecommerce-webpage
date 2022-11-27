@@ -1,0 +1,14 @@
+.specification-name{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
+.specification-value{
+    font-size: 16px;
+    line-height: 20px;
+    color: #063D58;
+    font-family: 'Roboto', sans-serif;
+}
+.inline-width{
+    width: auto !important;
+}
