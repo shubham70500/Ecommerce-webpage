@@ -86,7 +86,7 @@ export default class SingleProductCarousel extends Component {
         <Slider {...settings}>
           {data.images.map((url, index) => {
             return (
-              <div className="container-singleproduct-image">
+              <div key={index} className="container-singleproduct-image">
                 <div
                   className="wrapper-singleproduct-image"
                   onClick={() =>

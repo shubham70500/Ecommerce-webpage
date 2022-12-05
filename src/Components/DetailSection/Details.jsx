@@ -26,7 +26,7 @@ const Details = () => {
       <Grid container spacing={2}>
         {data.details.map((item, indx) => {
           return (
-            <Grid md={6}>
+            <Grid key={indx} md={6}>
               <DetailCardWithImageMagnifier
                 url={item.url}
                 heading={item.heading}

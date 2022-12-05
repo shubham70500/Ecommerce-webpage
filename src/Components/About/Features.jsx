@@ -28,7 +28,7 @@ const Features = () => {
       <Grid container spacing={2} justifyContent="center">
         {data.features.map((item, indx) => {
           return (
-            <Grid md={4}>
+            <Grid key={indx} md={4}>
               <IconBox
                 iconUrl={item.iconUrl}
                 heading={item.title}

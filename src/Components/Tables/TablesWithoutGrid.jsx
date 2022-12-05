@@ -20,7 +20,7 @@ const TablesWithoutGrid = ({ name, value }) => {
       >
         {data.name.map((item, index) => {
           return (
-            <TableRow>
+            <TableRow key={index}>
               <TableCell className="specification-name">{item}</TableCell>
               <TableCell className="specification-value">
                 {data.value[index]}
